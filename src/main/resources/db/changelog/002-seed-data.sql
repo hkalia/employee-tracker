@@ -1,3 +1,13 @@
+insert into department (id, name, description)
+values (1, 'HR', 'Handles recruitment, employee relations, and company policies');
+
+insert into department (id, name, description)
+values (2, 'IT', 'Manages company technology infrastructure and software development');
+
+insert into department (id, name, description)
+values (3, 'Finance', 'Oversees budgeting, accounting, and financial planning');
+
+
 insert into employee (id, name, salary, department_id)
 values (nextval('employee_seq'), 'Alice Johnson', 5500.00, 1);
 
@@ -27,12 +37,3 @@ values (nextval('employee_seq'), 'Ivy Thomas', 6700.00, 3);
 
 insert into employee (id, name, salary, department_id)
 values (nextval('employee_seq'), 'Jack White', 6400.00, 3);
-
-insert into department (id, name, description)
-values (1, 'HR', 'Handles recruitment, employee relations, and company policies');
-
-insert into department (id, name, description)
-values (2, 'IT', 'Manages company technology infrastructure and software development');
-
-insert into department (id, name, description)
-values (3, 'Finance', 'Oversees budgeting, accounting, and financial planning');
